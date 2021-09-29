@@ -1,0 +1,42 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '/content/mke_tf.py'
+ outputting to '/content/mke_tf.py_v2.py'
+--------------------------------------------------------------------------------
+
+10:0: INFO: Renamed 'tf.set_random_seed' to 'tf.compat.v1.set_random_seed'
+22:18: INFO: Changing tf.contrib.layers xavier initializer to a tf.compat.v1.keras.initializers.VarianceScaling and converting arguments.
+
+27:9: INFO: Added keywords to args of function 'tf.reduce_sum'
+28:9: INFO: Added keywords to args of function 'tf.reduce_sum'
+29:9: INFO: Added keywords to args of function 'tf.transpose'
+31:9: INFO: Added keywords to args of function 'tf.transpose'
+31:34: INFO: Added keywords to args of function 'tf.transpose'
+36:17: INFO: Added keywords to args of function 'tf.transpose'
+43:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+44:28: INFO: Renamed 'tf.log' to 'tf.math.log'
+44:41: INFO: Renamed 'tf.log' to 'tf.math.log'
+45:21: INFO: Added keywords to args of function 'tf.reduce_sum'
+46:28: INFO: Renamed 'tf.log' to 'tf.math.log'
+46:41: INFO: Renamed 'tf.log' to 'tf.math.log'
+54:8: INFO: Added keywords to args of function 'tf.shape'
+55:8: INFO: Added keywords to args of function 'tf.shape'
+56:8: INFO: Added keywords to args of function 'tf.shape'
+64:26: INFO: Added keywords to args of function 'tf.while_loop'
+67:17: INFO: Added keywords to args of function 'tf.reduce_sum'
+85:17: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+94:15: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+97:20: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+106:17: INFO: Renamed 'tf.random_uniform' to 'tf.random.uniform'
+143:37: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+163:13: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+--------------------------------------------------------------------------------
+
